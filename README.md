@@ -100,8 +100,6 @@ python dataset/csv_to_json.py \
     --output data/processed/train.json
 ```
 
-See [dataset/README.md](dataset/README.md) for details.
-
 ## Citation
 Waiting for updation...
 
