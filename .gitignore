@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch and Models
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.gguf
+tokenizer.model
+consolidated.*.pth
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+outputs/logs/*.log
+
+# Model checkpoints (keep structure but ignore large files)
+outputs/models/*.bin
+outputs/models/*.pth
+outputs/models/*.pt
+!outputs/models/.gitkeep
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+*.parquet
+*.feather
+
+# Training outputs
+wandb/
+tensorboard/
+checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Documentation build
+docs/_build/
+site/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Keep directory structure
+!**/outputs/.gitkeep
+!**/data/.gitkeep
+!**/logs/.gitkeep
