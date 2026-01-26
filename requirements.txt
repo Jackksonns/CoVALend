@@ -1,10 +1,30 @@
-transformers>=4.31.0
+# Core dependencies
 torch>=2.0.0
+transformers>=4.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Training and fine-tuning
+peft>=0.4.0
 accelerate>=0.21.0
 bitsandbytes>=0.41.0
-sentencepiece
-peft>=0.4.0
+
+# Data processing
 datasets>=2.12.0
+tqdm>=4.65.0
+sentencepiece
+
+# Evaluation and visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
 evaluate>=0.4.0
 scipy
-tqdm 
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Optional: For advanced features
+# flash-attn>=2.0.0  # Requires specific CUDA setup
+# deepspeed>=0.10.0  # For distributed training 
