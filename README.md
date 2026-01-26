@@ -10,7 +10,7 @@
 ## Model Architecture
 
 <div align="center">
-  <img src="assets/model_architecture.png" alt="CoVALend Model Architecture" width="85%">
+  <img src="assets/model_architecture.png" alt="CoVALend Model Architecture" width="45%">
 </div>
 
 ## Overview
