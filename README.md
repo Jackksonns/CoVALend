@@ -105,10 +105,10 @@ Waiting for updation...
 
 ## Contact
 
-**Maintainer:** Hongyi Zhou
+**Maintainer:** [Jackson ZHOU](https://github.com/Jackksonns)
 
 - Email: h.zhou.23@abdn.ac.uk
-- GitHub: [@Jackksonns](https://github.com/Jackksonns)
+- GitHub: [Jackson ZHOU](https://github.com/Jackksonns)
 
 **Affiliations:**
 - Aberdeen Institute of Data Science and AI, South China Normal University
